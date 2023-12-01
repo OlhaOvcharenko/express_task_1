@@ -1,8 +1,9 @@
 const express = require('express');
 const path = require('path');
-const hbs = require('express-handlebars');
 const opn = require('opn');
 
+
+const hbs = require('express-handlebars');
 
 const app = express();
 
