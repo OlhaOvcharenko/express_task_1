@@ -5,8 +5,11 @@
 
     {{#if isSent}}
       <div class="isSent"> 
-        The message has been sent!
-        File {{file}} has been saved
+        The message has been sent!<br>
+        File has been saved.
+        <div>
+          <img src="{{file}}" alt="Uploaded Image" class="image">
+        </div> 
       </div>
     {{/if}}
     {{#if isError}}
